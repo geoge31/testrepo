@@ -39,6 +39,6 @@ jobs:
       - name: build and push img
         uses: docker/build-push-action@v4
         with:
-          context:  DockerFileFolder
+          context:  Dockerfile
           push:  true
-          tags: gioge31/githubactionpushed:latest
+          tags: gioge31/testrepo:latest
